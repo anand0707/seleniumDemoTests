@@ -15,5 +15,12 @@
        <class name="testspackage.TestNGSimpleTest" />
     </classes>
   </test>
+
+  <test name="Assertiontests">
+    <classes>
+       <class name="testspackage.AssertionsTests" />
+    </classes>
+  </test>
+  
   
 </suite>
