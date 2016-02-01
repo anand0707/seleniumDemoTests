@@ -29,44 +29,39 @@ public class TestNGSimpleTest {
 	 * This also open the "url" as given in 
 	 * config.properties file.
 	 */
-	/*@BeforeSuite(alwaysRun = true)
+	@BeforeSuite(alwaysRun = true)
 	public void driversetup() {
 		driver = login_test.setUpProfile();
-	}*/
+	}
 
 	/**
 	 * This test is basic test for login and  logout.
 	 * Please check the parameters "username", password
 	 * in config.properties file.
 	 */
-	/*@Test(groups = {"funtional"})
+	@Test(groups = {"funtional"})
 	public void basicTest() {
 		login_test.login(driver);
 		login_test.logout(driver);
 	}
-	*/
+	
 	/**
 	 * This test is basic test for login
 	 * Please check the parameters "username", password
 	 * in config.properties file.
 	 */
-	/*@Test(groups = { "Sanity" })
+	@Test(groups = { "Sanity" })
 	public void basicLoginTest() {
 		login_test.login(driver);
-	}*/
+	}
 	
 	
 	/**
 	 * This test is basic test for logout.
 	 */
-	/*@Test(groups = { "Sanity" })
+	@Test(groups = { "Sanity" })
 	public void basicLogoutTest() {
 		login_test.logout(driver);
-	}*/
-	@Test
-	   public void testAdd() {
-	      String str = "TestNG is working fine";
-	      assertEquals("TestNG is working fine", str);
-	   }
+	}
 
 }
