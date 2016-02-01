@@ -86,7 +86,7 @@ public class AssertionsTests {
 	      assertEquals("TestNG is working fine", str);
 	   }
 
-	 @Test
+	 @Test(enabled = false)
 	   public void test14() {
 	      String str = "So that  report can show fails";
 	      assertEquals("TestNG is working fine", str);
@@ -103,4 +103,6 @@ public class AssertionsTests {
 	      String str = "So that  report can show fails";
 	      assertEquals("TestNG is working fine", str);
 	   }
+	 
+	 
 }
