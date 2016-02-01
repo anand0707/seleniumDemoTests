@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [DemoSuite]">
+  <test name="Demotest(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testspackage.TestNGSimpleTest">
+        <methods>
+          <include name="basicLogoutTest"/>
+          <include name="driversetup"/>
+          <include name="basicLoginTest"/>
+        </methods>
+      </class> <!-- testspackage.TestNGSimpleTest -->
+    </classes>
+  </test> <!-- Demotest(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->
