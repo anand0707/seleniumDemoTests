@@ -40,4 +40,67 @@ public class AssertionsTests {
 	      String str = "TestNG is working fine";
 	      assertEquals("TestNG is working fine", str);
 	   }
+	 
+
+	 @Test
+	   public void test7() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+	 
+
+	 @Test
+	   public void test8() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+	 
+
+	 @Test
+	   public void test9() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+
+	 @Test
+	   public void test10() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+
+	 @Test
+	   public void test11() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+
+	 @Test
+	   public void test12() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+
+	 @Test
+	   public void test13() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+
+	 @Test
+	   public void test14() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+
+	 @Test
+	   public void test15() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
+
+	 @Test
+	   public void test16() {
+	      String str = "So that  report can show fails";
+	      assertEquals("TestNG is working fine", str);
+	   }
 }
